@@ -1,0 +1,7 @@
+{
+  "name": "Copy of finallllllllllllll",
+  "description": "CosmoConnect is an immersive, interactive edutainment platform that teaches children about space weather through storytelling, real-time science, and gamification.",
+  "requestFramePermissions": [
+    "camera"
+  ]
+}
