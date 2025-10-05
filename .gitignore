@@ -48,7 +48,7 @@ coverage/
 # ============================================================
 
 # Videos
-*.mp4
+
 *.mov
 *.avi
 *.mkv
@@ -103,8 +103,3 @@ coverage/
 # ✅ Custom user assets folder exclusion (optional)
 # ============================================================
 # Ignore all files in assets except non-binary code/config
-components/assets/*
-!components/assets/*.json
-!components/assets/*.txt
-!components/assets/*.js
-!components/assets/*.ts
