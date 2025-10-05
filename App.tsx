@@ -380,7 +380,7 @@ const HomePage: React.FC<{ onNavigate: (page: Page) => void; onLaunchAR: () => v
                             src="/assets/solarprobe1.png" 
                             alt="Parker Solar Probe" 
                             className="w-full h-full object-cover"
-                        />
+                        /> 
                     </div>
                     <p className="text-violet-300 mb-4 text-center">The spacecraft is flying closer to the Sun's surface than any spacecraft before it. Click to explore the mission in detail.</p>
                     <div className="text-center">
