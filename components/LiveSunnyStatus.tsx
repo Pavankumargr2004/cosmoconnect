@@ -5,7 +5,7 @@ const LiveSunnyStatus: React.FC = () => {
     // due to an improperly configured API key. This change resolves the "RESOURCE_EXHAUSTED" error
     // by removing the failing API calls, ensuring the app remains functional and error-free.
     const status = "Sunny is dreaming of cosmic adventures! 🚀";
-    const imageUrl = "components/assets/sun.png"; // Static image of a sleeping sun.
+    const imageUrl = "/assets/sun.png"; // Static image of a sleeping sun.
 
     return (
         <section className="my-16 md:my-24 w-full animate-fade-in" style={{ animationDelay: '0.3s' }}>

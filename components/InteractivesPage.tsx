@@ -6,37 +6,37 @@ const interactivesData = [
   {
     title: "Solar Flare Eruption",
     description: "A solar flare is a powerful and sudden release of energy...",
-    imageUrl: "components/assets/solar_video.jpg",
+    imageUrl: "/assets/solar_video.jpg",
     embedUrl: "https://www.youtube.com/embed/KrPUyTNr3gs"
   },
   {
     title: "Auroras Crazy",
     description: "An aurora is a natural light display in the sky...",
-    imageUrl: "components/assets/Aurora.jpg",
+    imageUrl: "/assets/Aurora.jpg",
     embedUrl: "https://www.youtube.com/embed/LcNg50PTNL4"
   },
   {
     title: "Surviving Space Weather",
     description: "As an astronaut in space, solar flares pose a serious threat...",
-    imageUrl: "components/assets/Astronaut.jpg",
+    imageUrl: "/assets/Astronaut.jpg",
     embedUrl: "https://www.youtube.com/embed/wfJp--kKvZo"
   },
   {
     title: "Navigating Solar Storms",
     description: "Strong solar storms force me to make critical adjustments...",
-    imageUrl: "components/assets/piolet_perspective.jpg",
+    imageUrl: "/assets/piolet_perspective.jpg",
     embedUrl: "https://www.youtube.com/embed/tdIgb0MuamU"
   },
   {
     title: "When the Sun Disrupts the Fields",
     description: "On the ground, solar flares reach into my fields...",
-    imageUrl: "components/assets/Farmer.png",
+    imageUrl: "/assets/Farmer.png",
     embedUrl: "https://www.youtube.com/embed/eNtAP0S7mhU"
   },
   {
     title: "Chasing Auroras",
     description: "For me, solar flares are a gift. When their energy collides...",
-    imageUrl: "components/assets/photographer.png",
+    imageUrl: "/assets/photographer.png",
     embedUrl: "https://www.youtube.com/embed/ittCdhDQF_M"
   },
 ];

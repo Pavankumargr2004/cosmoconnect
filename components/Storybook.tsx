@@ -85,7 +85,7 @@ const Storybook: React.FC<StorybookProps> = ({ addAchievement }) => {
             />
           ) : (
             <img 
-              src="components/assets/Solar flare.jpg"
+              src="/assets/Solar flare.jpg"
               alt="Sunny the Solar Flare" 
               className="w-full h-full object-cover"
             />

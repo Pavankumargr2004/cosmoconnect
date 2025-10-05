@@ -7,10 +7,10 @@ interface PerspectivesProps {
 }
 
 const characterImageUrls: Record<PerspectiveCharacter, string> = {
-    [PerspectiveCharacter.Astronaut]: 'components/assets/Astronaut.jpg',
-    [PerspectiveCharacter.Pilot]: 'components/assets/piolet_perspective.jpg',
-    [PerspectiveCharacter.Farmer]: 'components/assets/Farmer.png',
-    [PerspectiveCharacter.Photographer]: 'components/assets/photographer.png'
+    [PerspectiveCharacter.Astronaut]: '/assets/Astronaut.jpg',
+    [PerspectiveCharacter.Pilot]: '/assets/piolet_perspective.jpg',
+    [PerspectiveCharacter.Farmer]: '/assets/Farmer.png',
+    [PerspectiveCharacter.Photographer]: '/assets/photographer.png'
 };
 
 const CharacterCard: React.FC<{ character: PerspectiveCharacter; onSelect: (char: PerspectiveCharacter) => void; isSelected: boolean }> = ({ character, onSelect, isSelected }) => {

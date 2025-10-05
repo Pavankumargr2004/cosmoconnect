@@ -41,7 +41,7 @@ const AuroraExplorer: React.FC<AuroraExplorerProps> = ({ addAchievement }) => {
                     {imageUrl ? (
                         <img src={imageUrl} alt="A beautiful aurora display" className="w-full h-full object-cover" />
                     ) : (
-                        <img src="components/assets/Aurora_earth.png" alt="A beautiful aurora display" className="w-full h-full object-cover" />
+                        <img src="/assets/Aurora_earth.png" alt="A beautiful aurora display" className="w-full h-full object-cover" />
                     )}
                     {isLoading && (
                         <div className="absolute inset-0 bg-black/50 flex items-center justify-center">

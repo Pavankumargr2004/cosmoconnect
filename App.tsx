@@ -377,7 +377,7 @@ const HomePage: React.FC<{ onNavigate: (page: Page) => void; onLaunchAR: () => v
                     <h2 className="text-2xl font-bold mb-3 text-transparent bg-clip-text bg-gradient-to-r from-cyan-400 to-blue-400 text-center">NASA's Parker Solar Probe</h2>
                     <div className="aspect-video rounded-lg overflow-hidden bg-gray-900 mb-4">
                         <img 
-                            src="components/assets/solarprobe1.png" 
+                            src="/assets/solarprobe1.png" 
                             alt="Parker Solar Probe" 
                             className="w-full h-full object-cover"
                         />
@@ -443,17 +443,17 @@ const SolarStoriesPage: React.FC<AchievementProps> = ({ addAchievement }) => {
         { 
             title: t('story1Title'), 
             description: t('story1Desc'),
-            imageUrl: "components/assets/solarflar1.jpg",
+            imageUrl: "/assets/solarflar1.jpg",
         },
         { 
             title: t('story2Title'), 
             description: t('story2Desc'),
-            imageUrl: "components/assets/eathlings.jpg",
+            imageUrl: "/assets/eathlings.jpg",
         },
         { 
             title: t('story3Title'), 
             description: t('story3Desc'),
-            imageUrl: "components/assets/space_senitals.jpg",
+            imageUrl: "/assets/space_senitals.jpg",
         }
     ], [t]);
 
