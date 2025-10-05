@@ -89,3 +89,8 @@ CosmoConnect is an interactive educational platform that helps children learn ab
 ## License
 
 This project is for educational purposes and uses NASA's public APIs which are freely available for educational use.
+
+
+This is our deployed Project
+https://cosmo-liard.vercel.app/
+
