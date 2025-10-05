@@ -1,3 +1,7 @@
+# ============================================================
+# ✅ Base Node/React/TypeScript .gitignore
+# ============================================================
+
 # Logs
 logs
 *.log
@@ -7,18 +11,100 @@ yarn-error.log*
 pnpm-debug.log*
 lerna-debug.log*
 
-node_modules
-dist
-dist-ssr
+# Dependency directories
+node_modules/
+jspm_packages/
+
+# Build output
+dist/
+build/
+dist-ssr/
 *.local
 
 # Editor directories and files
 .vscode/*
 !.vscode/extensions.json
-.idea
+.idea/
 .DS_Store
 *.suo
 *.ntvs*
 *.njsproj
 *.sln
 *.sw?
+
+# Environment files
+.env
+.env.*
+!.env.example
+
+# Temporary files
+.tmp/
+.cache/
+coverage/
+*.tsbuildinfo
+
+# ============================================================
+# 🚫 Ignore large/binary/media files
+# ============================================================
+
+# Videos
+*.mp4
+*.mov
+*.avi
+*.mkv
+*.flv
+*.wmv
+*.webm
+
+# Audio
+*.mp3
+*.wav
+*.ogg
+*.flac
+*.m4a
+
+# Images (optional – comment out if needed)
+# *.png
+# *.jpg
+# *.jpeg
+# *.gif
+# *.tiff
+# *.bmp
+# *.psd
+
+# Archives / Compressed
+*.zip
+*.tar
+*.gz
+*.rar
+*.7z
+
+# Executables / Binary
+*.exe
+*.dll
+*.bin
+*.iso
+*.dmg
+*.msi
+
+# Office / Design Files
+*.pdf
+*.ai
+*.eps
+*.ps
+*.indd
+*.pptx
+*.docx
+*.xls*
+*.sketch
+*.fig
+
+# ============================================================
+# ✅ Custom user assets folder exclusion (optional)
+# ============================================================
+# Ignore all files in assets except non-binary code/config
+components/assets/*
+!components/assets/*.json
+!components/assets/*.txt
+!components/assets/*.js
+!components/assets/*.ts
