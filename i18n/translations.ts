@@ -109,7 +109,12 @@ export const translations: { [key in Language]: { [key: string]: string } } = {
     cosmicCollectorDesc: "Pilot your ship to collect glowing star fragments, but watch out for dangerous space junk!",
     galacticHubTitle: 'Galactic Activities Hub',
     galacticHubDesc: 'Get creative with at-home space crafts and AI-powered coloring pages.',
-
+    globalMissionTitle: 'Global Mission',
+    globalMissionDesc: 'Deploy satellites to monitor global events and complete research before time runs out.',
+    asteroidNavigatorTitle: 'Asteroid Belt Navigator',
+    asteroidNavigatorDesc: 'Pilot your ship through the dangerous asteroid belt. Collect Helium-3 and grab power-ups to survive longer!',
+    parkerSolarProbeTitle: 'Parker Solar Probe',
+    parkerSolarProbeDesc: 'Pilot the probe close to the sun to gather data, but avoid solar flares and manage your heat. Use the blue zones on the sides to cool down!',
 
     // Explore Page
     explorePageTitle: 'Explore the Cosmos',
@@ -254,6 +259,10 @@ export const translations: { [key in Language]: { [key: string]: string } } = {
     cosmicCollectorDesc: "¡Pilota tu nave para recoger fragmentos de estrellas brillantes, pero ten cuidado con la peligrosa chatarra espacial!",
     galacticHubTitle: 'Centro de Actividades Galácticas',
     galacticHubDesc: 'Sé creativo con manualidades espaciales caseras y páginas para colorear generadas por IA.',
+    globalMissionTitle: 'Misión Global',
+    globalMissionDesc: 'Despliega satélites para monitorear eventos globales y completar investigaciones antes de que se acabe el tiempo.',
+    asteroidNavigatorTitle: 'Navegador del Cinturón de Asteroides',
+    asteroidNavigatorDesc: 'Pilota tu nave a través del peligroso cinturón de asteroides. Recoge Helio-3 y consigue mejoras para sobrevivir más tiempo!',
 
 
     // Explore Page
@@ -397,8 +406,14 @@ export const translations: { [key in Language]: { [key: string]: string } } = {
     cloudPainterDesc: 'Peignez votre propre belle nébuleuse où naissent les étoiles.',
     cosmicCollectorTitle: "Collecteur Cosmique",
     cosmicCollectorDesc: "Pilotez votre vaisseau pour collecter des fragments d'étoiles brillants, mais attention aux débris spatiaux dangereux !",
-    galacticHubTitle: "Centre d'Activités Galactiques",
+    galacticHubTitle: 'Centre d\'Activités Galactiques',
     galacticHubDesc: 'Soyez créatif avec des bricolages spatiaux faits maison et des pages à colorier alimentées par l\'IA.',
+    globalMissionTitle: 'Mission Globale',
+    globalMissionDesc: 'Déployez des satellites pour surveiller les événements mondiaux et mener des recherches avant que le temps ne soit écoulé.',
+    asteroidNavigatorTitle: 'Navigateur de la Ceinture d’Astéroïdes',
+    asteroidNavigatorDesc: 'Pilotez votre vaisseau à travers la dangereuse ceinture d’astéroïdes. Collectez de l’hélium-3 et saisissez les améliorations pour survivre plus longtemps !',
+    parkerSolarProbeTitle: 'Sonde Parker Solar',
+    parkerSolarProbeDesc: 'Pilotez la sonde près du soleil pour collecter des données, mais évitez les éruptions solaires et gérez la chaleur. Utilisez les zones bleues sur les côtés pour vous refroidir !',
 
     // Explore Page
     explorePageTitle: 'Explorez le Cosmos',
@@ -543,6 +558,12 @@ export const translations: { [key in Language]: { [key: string]: string } } = {
     cosmicCollectorDesc: "Steuere dein Schiff, um leuchtende Sternenfragmente zu sammeln, aber pass auf gefährlichen Weltraumschrott auf!",
     galacticHubTitle: 'Galaktischer Aktivitäten-Hub',
     galacticHubDesc: 'Werden Sie kreativ mit Weltraum-Bastelarbeiten für zu Hause und KI-gestützten Malvorlagen.',
+    globalMissionTitle: 'Globale Mission',
+    globalMissionDesc: 'Setzen Sie Satelliten ein, um globale Ereignisse zu überwachen und Forschung abzuschließen, bevor die Zeit abläuft.',
+    asteroidNavigatorTitle: 'Asteroidengürtel-Navigator',
+    asteroidNavigatorDesc: 'Steuern Sie Ihr Schiff durch den gefährlichen Asteroidengürtel. Sammeln Sie Helium-3 und ergreifen Sie Power-ups, um länger zu überleben!',
+    parkerSolarProbeTitle: 'Parker Solar Sonde',
+    parkerSolarProbeDesc: 'Steuern Sie die Sonde nah an die Sonne, um Daten zu sammeln, aber vermeiden Sie Sonneneruptionen und kontrollieren Sie die Hitze. Nutzen Sie die blauen Zonen an den Seiten zum Abkühlen!',
 
 
     // Explore Page
@@ -688,7 +709,14 @@ export const translations: { [key in Language]: { [key: string]: string } } = {
     cosmicCollectorDesc: "चमकते हुए तारे के टुकड़ों को इकट्ठा करने के लिए अपने जहाज को चलाएं, लेकिन खतरनाक अंतरिक्ष कबाड़ से सावधान रहें!",
     galacticHubTitle: 'गैलेक्टिक एक्टिविटीज हब',
     galacticHubDesc: 'घर पर अंतरिक्ष शिल्प और एआई-संचालित रंग पृष्ठों के साथ रचनात्मक बनें।',
-    
+    globalMissionTitle: 'वैश्विक मिशन',
+    globalMissionDesc: 'समय समाप्त होने से पहले वैश्विक घटनाओं की निगरानी करने और अनुसंधान पूरा करने के लिए उपग्रहों को तैनात करें।',
+    asteroidNavigatorTitle: 'क्षुद्रग्रह बेल्ट नेविगेटर',
+    asteroidNavigatorDesc: 'खतरनाक क्षुद्रग्रह बेल्ट के माध्यम से अपने जहाज को चलाएं। हीलियम-3 इकट्ठा करें और लंबे समय तक जीवित रहने के लिए पावर-अप पकड़ें!',
+    parkerSolarProbeTitle: 'पार्कर सोलर प्रोब',
+    parkerSolarProbeDesc: 'डेटा इकट्ठा करने के लिए प्रोब को सूरज के करीब ले जाएं, लेकिन सौर फ्लेयर से बचें और गर्मी का प्रबंधन करें। ठंडा रहने के लिए किनारों पर नीले क्षेत्रों का उपयोग करें!',
+
+
     // Explore Page
     explorePageTitle: 'ब्रह्मांड का अन्वेषण करें',
     explorePageSubtitle: 'इन इंटरैक्टिव अनुभवों और डेटा खोजकर्ताओं के साथ अंतरिक्ष के आश्चर्यों में गहराई से उतरें।',

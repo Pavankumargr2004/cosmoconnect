@@ -21,7 +21,7 @@ import { useLanguage } from './contexts/LanguageContext';
 import { getAPOD, getRecentCMEs } from './services/spaceWeatherService';
 import { getBedtimeStory, generateColoringPage, getObscureSpaceFact } from './services/geminiService';
 import { APODData, CMEData } from './types';
-import SolarShieldDefense from './components/SolarShieldDefense';
+
 import LiveSunnyStatus from './components/LiveSunnyStatus';
 import AstroVRTutorial from './components/AstroVRTutorial';
 import AuroraMusicBox from './components/AuroraMusicBox';
@@ -33,6 +33,7 @@ import CMEImpactSimulator from './components/CMEImpactSimulator';
 import FullscreenModal from './components/FullscreenModal';
 import GravitySlingshot from './components/GravitySlingshot';
 import SatelliteRescue from './components/SatelliteRescue';
+import ParkerSolarProbeGame from './components/ParkerSolarProbeGame';
 import ErrorBoundary from './components/ErrorBoundary';
 import LoadingSpinner from './components/LoadingSpinner';
 // Import improved games
@@ -40,6 +41,8 @@ import ImprovedCosmicCollector from './components/ImprovedCosmicCollector';
 import ImprovedGravitySlingshot from './components/ImprovedGravitySlingshot';
 import ImprovedSolarShieldDefense from './components/ImprovedSolarShieldDefense';
 import ImprovedSatelliteRescue from './components/ImprovedSatelliteRescue';
+import GlobalMission from './components/GlobalMission';
+import AsteroidBeltNavigator from './components/AsteroidBeltNavigator';
 
 // =================================================================
 // TYPE DEFINITIONS
@@ -646,15 +649,15 @@ const LearningMissionsPage: React.FC<AchievementProps> = ({ addAchievement }) =>
     const [activeMission, setActiveMission] = useState<string | null>(null);
 
     const missions = useMemo(() => [
-        { id: 'gravity-slingshot', title: t('gravitySlingshotTitle'), description: t('gravitySlingshotDesc'), component: <ImprovedGravitySlingshot addAchievement={addAchievement}/> },
-        { id: 'satellite-rescue', title: t('satelliteRescueTitle'), description: t('satelliteRescueDesc'), component: <ImprovedSatelliteRescue addAchievement={addAchievement}/> },
         { id: 'galactic-activities-hub', title: t('galacticHubTitle'), description: t('galacticHubDesc'), component: <GalacticActivitiesHub /> },
-        { id: 'cosmic-collector', title: t('cosmicCollectorTitle'), description: t('cosmicCollectorDesc'), component: <ImprovedCosmicCollector addAchievement={addAchievement}/> },
         { id: 'telescope-quiz', title: t('telescopeQuizTitle'), description: t('telescopeQuizDesc'), component: <TelescopeQuiz addAchievement={addAchievement}/> },
         { id: 'space-quiz', title: t('spaceQuizTitle'), description: t('spaceQuizDesc'), component: <SpaceQuiz addAchievement={addAchievement}/> },
         { id: 'planet-designer', title: t('planetDesignerTitle'), description: t('planetDesignerDesc'), component: <PlanetDesigner addAchievement={addAchievement}/> },
         { id: 'cloud-painter', title: t('cloudPainterTitle'), description: t('cloudPainterDesc'), component: <CosmicCloudPainter addAchievement={addAchievement}/> },
-        { id: 'shield-defense', title: t('shieldDefenseTitle'), description: t('shieldDefenseDesc'), component: <ImprovedSolarShieldDefense addAchievement={addAchievement} /> },
+        { id: 'global-mission', title: t('globalMissionTitle'), description: t('globalMissionDesc'), component: <GlobalMission addAchievement={addAchievement} /> },
+        { id: 'cosmic-collector', title: t('cosmicCollectorTitle'), description: t('cosmicCollectorDesc'), component: <ImprovedCosmicCollector addAchievement={addAchievement}/> },
+        { id: 'asteroid-navigator', title: t('asteroidNavigatorTitle'), description: t('asteroidNavigatorDesc'), component: <AsteroidBeltNavigator addAchievement={addAchievement}/> },
+        { id: 'parker-solar-probe', title: t('parkerSolarProbeTitle'), description: t('parkerSolarProbeDesc'), component: <ParkerSolarProbeGame addAchievement={addAchievement} /> },
     ], [addAchievement, t]);
 
     const activeMissionData = missions.find(m => m.id === activeMission);
@@ -692,7 +695,8 @@ const LearningMissionsPage: React.FC<AchievementProps> = ({ addAchievement }) =>
                     {t('missionsPageSubtitle')}
                 </p>
             </div>
-            <div className="max-w-5xl mx-auto grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
+            {/* Display all cards in rows of three */}
+            <div className="max-w-5xl mx-auto grid grid-cols-1 md:grid-cols-3 gap-8">
                 {missions.map(mission => (
                     <SectionCard
                         key={mission.id}

@@ -105,7 +105,7 @@ const CMEAnalysis: React.FC = () => {
             )
         }
         if (cmeData && cmeData.length > 0) {
-            const staticCmeImageUrl = "https://images.unsplash.com/photo-1614728263952-84ea256ec346?q=80&w=1200&auto-format=fit-crop";
+            const staticCmeImageUrl = "components/assets/solarflar1.jpg";
             return (
                 <div className="flex flex-col h-full">
                     <div className="grid grid-cols-1 lg:grid-cols-2 gap-4 w-full pb-4 h-1/2">
